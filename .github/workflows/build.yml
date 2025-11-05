@@ -27,7 +27,7 @@ jobs:
           pyinstaller -F -w sci_think_screenshot_app.py --icon=logo.ico
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: macos-build
           path: dist/
